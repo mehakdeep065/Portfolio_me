@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import TextImg from "../components/TextImg";
-import Skilldiv from "../components/skilldiv";
+import Skilldiv from "../components/Skilldiv";
 
 function Skills() {
     return (
