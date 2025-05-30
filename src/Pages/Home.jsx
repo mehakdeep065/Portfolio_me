@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import TextButtons from "../components/TextButtons";
-import Sideimg from "../components/sideimg";
+import Sideimg from "../components/Sideimg";
 import TextImg from "../components/TextImg";
 import Footer from "../components/Footer";
 function Home() {
