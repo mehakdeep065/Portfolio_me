@@ -2,8 +2,8 @@ import React from "react";
 function Sideimg({className}) {
     return (
         <>
-            <div  className={`flex bgimg bg-cover bg-center bg-no-repeat w-1/2  ${className} `}>         
-                <img className="z-1" src="image.png" alt="photo background" />
+            <div  className={`flex bgimg bg-cover bg-center bg-no-repeat   ${className} `}>         
+                <img className="relative left-0.5" src="image.png" alt="photo background" />
             </div>
         </>
     );
