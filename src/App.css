@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=UnifrakturMaguntia&display=swap');
+@import "tailwindcss";
+
+
+body{
+    background-color: white;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    overflow-x: hidden;
+
+}
+
