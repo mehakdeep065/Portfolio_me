@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <Banner/>
+      <Banner showImg={true}/>
       <h1 className="flex justify-center mt-[15vw] text-3xl">Projects</h1>
       <hr className="flex justify-center border-2 mx-[46.9vw] rounded mt-2 border-amber-300" />
       <TextImg imgSrc="project1.PNG"

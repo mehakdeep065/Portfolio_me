@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Banner({ className, shortText }) {
+function Banner({ className, shortText,showImg }) {
     return (
         <> <div className="flex justify-between">
             <div className={` flex flex-col gap-4 mx-[10vw] my-16  w-1/4 ${className}  `}>
@@ -24,9 +24,13 @@ function Banner({ className, shortText }) {
                 </div>
             </div>
             {/* image inside div  */}
-             <div  className={`flex bgimg bg-cover bg-center bg-no-repeat   ${className} `}>         
-                <img  src="image.png" alt="photo background" />
-            </div>
+            
+            {showImg && (
+                    <div className="flex bgimg bg-cover bg-center bg-no-repeat">
+                        <img src="image.png" alt="photo background" />
+                    </div>
+                )}
+            
         </div>
 
         </>
