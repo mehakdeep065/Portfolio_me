@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
      <div className='w-full  mt-10 '>
-      <div className='flex  border-y-2 border-gray-500 flex-col  items-center p-10 pl-20 '>
+      <div className='flex  border-b-1 border-gray-500 flex-col  items-center p-10 pl-20 '>
           <h3 className='font-light text-sm p-2'>want to contect me?</h3>
           <h1 className='font-bold text-3xl'>Let's Start</h1>
         </div>

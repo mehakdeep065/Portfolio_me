@@ -1,11 +1,11 @@
 import React from "react";
 
-function Contacts() {
+function Resume() {
     return ( 
         <>
-        Contacts
+        resume
         </>
      );
 }
 
-export default Contacts;
+export default Resume;
